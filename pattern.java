@@ -8,11 +8,10 @@ Write a proframm to print the format in java
 */
 import java.util.*;
 class pattern{
-	public static void main(String args[]){
-		int n;
+	public static void main(String args[]){		
 		System.out.println("Enter the Number of Rows : ");
 		Scanner sc=new Scanner(System.in);
-		n=sc.nextInt();
+		int n=sc.nextInt();
 		int p=n;
 		if(n>=1 && n<=100){
 			for(int i=1;i<=n;i+=2){
@@ -38,7 +37,7 @@ class pattern{
 			}
 		}
 		else{
-			System.out.println("Enter a Valid Input(1-100)! ");
+			System.out.println("Enter a between the range(1-100)! ");
 		}
 		
 	}
